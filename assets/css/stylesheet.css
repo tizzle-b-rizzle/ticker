@@ -14,13 +14,13 @@
   margin-right: auto;
 }
 
-.color-container {
-  width: 1200px;
+.name-container {
+  width: 2700px;
   height: 300px;
   position: relative;
   animation-name: slide;
   animation-iteration-count: infinite;
-  animation-duration: 9s;
+  animation-duration: 20s;
 }
 
 @keyframes slide {
@@ -28,16 +28,40 @@
     left: 0;
   }
 
-  25% {
+  10% {
     left: -300px;
   }
 
-  50% {
+  20% {
     left: -600px;
   }
 
-  75% {
+  30% {
     left: -900px;
+  }
+
+  40% {
+    left: -1200px;
+  }
+
+  50% {
+    left: -1500px;
+  }
+
+  60% {
+    left: -1800px;
+  }
+
+  70% {
+    left: -2100px;
+  }
+
+  80% {
+    left: -2400px;
+  }
+
+  90% {
+    left: 0;
   }
 
   100% {
@@ -45,38 +69,21 @@
   }
 }
 
-.colors {
+.names {
   float: left;
+  height: 300px;
+  width: 300px;
 }
-
-#red h1,
-#blue h1,
-#yellow h1,
-#green h1 {
+#intro h1,
+#geoffrey h1,
+#sam h1,
+#nicola h1,
+#sean h1,
+#steve h1,
+#adrian h1,
+#amandeep h1,
+#neil h1,
+#dawn h1 {
   text-align: center;
   margin-top: 25%;
-}
-
-#red {
-  height: 300px;
-  width: 300px;
-  background-color: red;
-}
-
-#blue {
-  height: 300px;
-  width: 300px;
-  background-color: blue;
-}
-
-#yellow {
-  height: 300px;
-  width: 300px;
-  background-color: yellow;
-}
-
-#green {
-  height: 300px;
-  width: 300px;
-  background-color: green;
 }
