@@ -15,7 +15,7 @@
 }
 
 .name-container {
-  width: 2700px;
+  width: 3300px;
   height: 300px;
   position: relative;
   animation-name: slide;
@@ -61,11 +61,11 @@
   }
 
   90% {
-    left: 0;
+    left: -2700px;
   }
 
   100% {
-    left: 0;
+    left: -3000px;
   }
 }
 
@@ -83,7 +83,9 @@
 #adrian h1,
 #amandeep h1,
 #neil h1,
-#dawn h1 {
+#dawn h1,
+#ben h1,
+#vasil h1 {
   text-align: center;
   margin-top: 25%;
 }
